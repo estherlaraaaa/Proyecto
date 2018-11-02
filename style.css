@@ -1,6 +1,4 @@
 
-
-
 .informativo-2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -29,26 +27,8 @@
     background: white;
 }
 
-.uso{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    background: #ffffff;
-}
 
-.caja-uso{
-    display: grid;
-    grid-template-columns: 45% 55%;
-    text-align: center; 
-}
 
-.caja-uso .caja-uso-contenedor{
-    margin-top: 5em;
-}
 
-.caja-uso .step{
-    width: 100%;
-    height: 20em;
-    background-size: cover;
-    background-position: center;
-}
+
 
