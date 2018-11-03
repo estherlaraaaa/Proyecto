@@ -1,10 +1,11 @@
 /*VIDEOOOOOOOOOOO*/
 header {
     position: relative;
-    height: 75vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
+    background-color: skyblue;
   }
   
   header video {
@@ -35,7 +36,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.7;
     z-index: 1;
   }
   
@@ -50,18 +51,45 @@ header {
 
   /*DOS COLUMNASSSSSSSSSSSSSSSSSSSSS*/
 
-  .column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+  .columna2{
+    width: 100%;
+    height: 30em;
+    background-color: rgb(13, 0, 199);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
 }
+
+.contenedor-columna2{
+    margin-top: 5em;
+    margin: 5%;
+    margin-top: 20%;
+}
+
+.columna2 .contenedor-columna2 >p{
+    color: white;
+}
+
+.columna2 .contenedor-columna2 >h2{
+    color: white;
+}
+
+.columna2-vacio > img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30em; 
+}
+
 
 /*SECCION DEL CHECKKKKKKKKKKK*/
 
 .check{
     width: 100%;
-    height: 20em;
+    height: 30em;
     background-image: url(fondo.jpg);
     display: grid;
     grid-template-columns: 50% 50%;
@@ -70,13 +98,17 @@ header {
     background-position: center;
 }
 
+.contenedor-check{
+    margin-top: 5em;
+}
+
 .check .contenedor-check >p{
     margin-left: 2.5em;
     color: white;
 }
 
 .check .contenedor-check >h2{
-    color: white;
+    color: rgba(1, 230, 230, 0.664);
 }
 
 
@@ -90,7 +122,7 @@ header {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -100,7 +132,7 @@ header {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
 }
@@ -127,7 +159,7 @@ header {
 
 footer{
     width: 100%;
-    height: 10em;
+    height: 25em;
     background-color: black;
     text-align: center;
     color: white;
