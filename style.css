@@ -5,12 +5,12 @@ header {
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
-    background-color: skyblue;
-  }
-  
+    font-family: sans-serif;
+}
+
   header video {
     position: absolute;
-    opacity: 0.7;
+    opacity: 0.9;
     top: 50%;
     left: 50%;
     min-width: 100%;
@@ -35,7 +35,7 @@ header {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: skyblue;
     opacity: 0.7;
     z-index: 1;
   }
@@ -54,7 +54,7 @@ header {
   .columna2{
     width: 100%;
     height: 30em;
-    background-color: rgb(13, 0, 199);
+    background-color: white;
     display: grid;
     grid-template-columns: 50% 50%;
     opacity: 0.7;
@@ -70,11 +70,11 @@ header {
 }
 
 .columna2 .contenedor-columna2 >p{
-    color: white;
+    color: black;
 }
 
 .columna2 .contenedor-columna2 >h2{
-    color: white;
+    color: black;
 }
 
 .columna2-vacio > img{
@@ -112,58 +112,12 @@ header {
 }
 
 
-
-/*MENUUUUUUUUUUUUUUUUUUUUUUUU*/
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-
 /*FOOTERRRRRRRRRRRRRRRRRRRRRRRRRR*/
 
 footer{
     width: 100%;
-    height: 25em;
-    background-color: black;
-    text-align: center;
-    color: white;
-    
+    height: 15em;
+    background-color: black;  
 }
 
 
