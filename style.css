@@ -145,3 +145,167 @@ footer{
 
 
 
+/*LOGINNNNNNNNNNNNNNNNNNNNNNNNNNNNNN*/
+#wrapper{
+    background-color: #000000d6;
+    color: #97a1bc;
+    width: 100%;
+    height: 100vh;
+    display: none !important;
+    display: grid;
+    position: absolute;
+    z-index: 3;
+}
+.log{
+    background: url("../img/back.jpg") no-repeat center;
+    background-size: cover;
+    width: 350px;
+    height: 400px;
+    border-radius: 6px;
+    justify-self: center;
+    align-self: center;
+}
+.tela{
+    background-color: #1d2c4f;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .9;
+    border-radius: 6px;
+}
+.inside{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+}
+.inside > img {
+    padding: 10px;
+    width: 100px;
+}
+.inside .inputs .txt-logs {
+    background-color: #4e5875;
+    width: 80%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0; 
+    padding-left: 10px;
+}
+.inputs{
+    width: 100%;
+    text-align: center;
+}
+.submit{
+    width: 100%;
+    text-align: center;
+
+}
+.submit > input{
+    background-color:#209bff;
+    border:none;
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    color: #1d2c4f;
+    font-size: 1em;
+    margin-top: 15px;
+}
+.submit > input:hover{
+    background-color:#209bff;
+    cursor: pointer;
+    
+}
+.submit > p {
+    margin-top: 15px;
+}
+.submit > p > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.75em;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/*Registro*/
+.reg{
+    background: url("../img/back.jpg") no-repeat center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    border-radius: 6px;
+    justify-self: center;
+    align-self: center;
+}
+.tela{
+    background-color: #1d2c4f;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .9;
+    border-radius: 6px;
+}
+.inside-reg{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+}
+.inside-reg > img {
+    padding: 10px;
+    width: 100px;
+}
+.inside-reg .inputs .txt-logs-reg {
+    background-color: #4e5875;
+    width: 80%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0; 
+    padding-left: 10px;
+}
+.inputs{
+    width: 100%;
+    text-align: center;
+}
+.submit{
+    width: 100%;
+    text-align: center;
+
+}
+.submit > input{
+    background-color:#209bff;
+    border:none;
+    width: 80%;
+    height: 45px;
+    border-radius: 10px;
+    color: #1d2c4f;
+    font-size: 1em;
+    margin-top: 15px;
+}
+.submit > input:hover{
+    background-color:#018dff;
+    cursor: pointer;
+    
+}
+.submit > p {
+    margin-top: 15px;
+}
+.submit > p > a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.75em;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}

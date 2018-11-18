@@ -1,0 +1,26 @@
+<div class="wrapper">
+        <div class="reg relative">
+            <div class="tela absolute"></div>
+            <div class="inside-reg relative">
+                <img src="assets/img/userimg.png" alt="">
+                <div class="inputs">
+                    <input type="text" placeholder="Usuario" class="txt-logs-reg">
+                    <input type="text" placeholder="Nombre" class="txt-logs-reg">
+                    <input type="text" placeholder="Apellido" class="txt-logs-reg">
+                    <input type="password" placeholder="Contrasena" class="txt-logs-reg">
+                    <input type="password" placeholder="Verificar contrasena" class="txt-logs-reg">
+                    <div class="gender">
+                        <label>
+                            F <input type="radio" name="gender" id="gender" value="Femenino">
+                        </label> 
+                        <label>
+                            M <input type="radio" name="gender" id="gender" value="Masculino">
+                        </label>   
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Registrarse">
+                </div>
+            </div>
+        </div>
+    </div>

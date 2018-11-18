@@ -15,6 +15,22 @@
 </head>
 
 <body>
+    <div class="wrapper" id="wrapper">
+        <div class="log relative">
+            <div class="tela absolute"></div>
+            <div class="inside relative">
+                <img src="userimg.png" alt="">
+                <div class="inputs">
+                    <input type="text" placeholder="Usuario" class="txt-logs">
+                    <input type="text" placeholder="Contrasena" class="txt-logs">
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Iniciar Sesion">
+                    <p><a href="">Olvidaste tu contrasena</a> | <a href="">Registrarse</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <header>
         <div class="overlay">
@@ -24,7 +40,7 @@
                 <nav class="my-2 my-md-0 mr-md-3">
                     <a class="p-2 text-dark" href="#">Registrarse</a>
                 </nav>
-                <a class="btn btn-outline-primary" href="#">Iniciar sesión</a>
+                <a class="btn btn-outline-primary" id="login">Iniciar sesión</a>
             </div>
         </div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
@@ -70,6 +86,11 @@
     <footer>
 
     </footer>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/popup.js"></script>
+
 </body>
 
 </html>
