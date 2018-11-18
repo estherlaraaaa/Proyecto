@@ -1,4 +1,59 @@
 /*VIDEOOOOOOOOOOO*/
+/* NAVBAR */
+
+#top-header{
+    background-color: white;
+    padding: 20px;
+    display: flow-root;
+  }
+  
+  .left{
+    margin-left: 3%;
+  }
+  
+  .left {
+    color: #8a8a8a;
+    vertical-align: -webkit-baseline-middle;
+    font-size: 20px;
+    margin-top: 7px;
+    cursor: pointer;
+  }
+  
+  .logo-principal{
+    width: 20%;
+    margin-top: 1%;
+  }
+  
+  .logo-principal img{
+    width: 100%;
+  }
+  
+  .right{
+    margin-right: 3%;
+    float: right;
+    margin-top: 1%;
+  }
+  
+  .top-btn{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  
+  .btn{
+    padding: 14px;
+    border: 0;
+    border-radius: 17px;
+    cursor: pointer;
+  }
+  
+  .btn-primary{
+    background: #209bff;
+    color: white;
+  }
+  
+
 header {
     position: relative;
     height: 100vh;
@@ -22,6 +77,11 @@ header {
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
+  }
+
+  .header-text{
+    margin-top: 18%;
+    text-align: center;
   }
   
   header .container {
